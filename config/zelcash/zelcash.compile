@@ -1,0 +1,5 @@
+#!/bin/bash    
+
+./zcutil/fetch-params.sh
+./zcutil/build.sh -j$(nproc)
+make install
